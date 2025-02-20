@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #373434; 
+}
+
+#intro-screen {
+    background-image: url('images/background.png');
+    width: 80vw;
+    padding: 20px;
+
+}
+
+button{
+    background-color: white
+    color(srgb red green blue)
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#game-screen{
+
+
+
+    display: none;
+    
+
+
+}
+
+#game-board{
+    background-image: url('images/background.png');
+    width: 50vw;
+    height: 40vw;
+    display: grid;
+}
+
+.cell{
+    width: 5opx;
+    height: 50px;
+    border: black;
+}
